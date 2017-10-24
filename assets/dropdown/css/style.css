@@ -262,12 +262,4 @@
 .is-builder .nav-dropdown.collapsing {
   transition: none !important; }
 
-
-.responsiveCal {
-  position: relative; padding-bottom: 75%; height: 0; overflow: hidden;
-  }
-  .responsiveCal iframe {
-  position: absolute; top:0; left: 0; width: 100%; height: 100%;
-  }
-
 /*# sourceMappingURL=style.css.map */
