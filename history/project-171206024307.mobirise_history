@@ -1,9 +1,9 @@
 {
   "settings": {
     "name": "Sailing Club at Georgia Tech",
-    "currentPage": "privacy.html",
+    "currentPage": "index.html",
     "versionFirst": "4.0.14",
-    "uniqCompNum": 181,
+    "uniqCompNum": 173,
     "versionPublish": "4.5.2",
     "theme": {
       "name": "mobirise4",
@@ -39,9 +39,7 @@
       ]
     },
     "favicon": "",
-    "noImageResize": "",
-    "publishType": "local",
-    "publishPath": "@PROJECT_PATH@"
+    "noImageResize": ""
   },
   "pages": {
     "alumni.html": {
@@ -433,8 +431,6 @@
           "_cid": "qr5CqFgi7F",
           "_anchor": "menu1-3r",
           "_protectedParams": [],
-          "_global": true,
-          "_once": "menu",
           "_params": {}
         },
         {
@@ -455,8 +451,6 @@
           "_cid": "qrQQj1pLB6",
           "_anchor": "header2-3s",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         },
         {
@@ -537,8 +531,6 @@
           "_anchor": "footer1-45",
           "_cid": "qrXjeySG6k",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         }
       ]
@@ -547,7 +539,7 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "Media",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -932,8 +924,6 @@
           "_cid": "qr5CqFgi7F",
           "_anchor": "menu1-2t",
           "_protectedParams": [],
-          "_global": true,
-          "_once": "menu",
           "_params": {}
         },
         {
@@ -963,8 +953,6 @@
           "_cid": "qAjLgxWrVu",
           "_anchor": "video1-4p",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         },
         {
@@ -1021,8 +1009,6 @@
             "gallery__filtersBtnStyle",
             "gallery"
           ],
-          "_global": false,
-          "_once": false,
           "_params": {
             "text_all": "All",
             "gallery__filtersTextStyle": "display-4",
@@ -1033,8 +1019,8 @@
                 "videoPreview": "@PROJECT_PATH@/assets/images/2017-7-3-16-36-41-620936.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/4BPMhlrd8go",
-                "image": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/gallery00.jpg",
+                "image": "../../app/themes/mobirise4/components/_images/gallery/gallery00.jpg",
+                "thumb": "../../app/themes/mobirise4/components/_images/gallery/gallery00.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "Georgia Tech Sailing - Spring 2017",
@@ -1045,8 +1031,8 @@
                 "videoPreview": "@PROJECT_PATH@/assets/images/2017-7-3-16-37-13-292291.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/UJIff1Ve6Vk",
-                "image": "@THEME_PATH@/components/_images/gallery/gallery01.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/gallery01.jpg",
+                "image": "../../app/themes/mobirise4/components/_images/gallery/gallery01.jpg",
+                "thumb": "../../app/themes/mobirise4/components/_images/gallery/gallery01.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "Allstate Sugar Bowl Regatta",
@@ -1057,8 +1043,8 @@
                 "videoPreview": "@PROJECT_PATH@/assets/images/2017-7-3-16-41-5-125807.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/twHvTUQ-INE",
-                "image": "@THEME_PATH@/components/_images/gallery/gallery02.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/gallery02.jpg",
+                "image": "../../app/themes/mobirise4/components/_images/gallery/gallery02.jpg",
+                "thumb": "../../app/themes/mobirise4/components/_images/gallery/gallery02.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "Home Regatta - Fall 2017",
@@ -1069,8 +1055,8 @@
                 "videoPreview": "@PROJECT_PATH@/assets/images/2017-7-3-16-41-34-20500.jpg",
                 "playVideo": true,
                 "videoUrl": "https://youtu.be/xxsL8E1Jz3o",
-                "image": "@THEME_PATH@/components/_images/gallery/gallery03.jpg",
-                "thumb": "@THEME_PATH@/components/_images/gallery/gallery03.jpg",
+                "image": "../../app/themes/mobirise4/components/_images/gallery/gallery03.jpg",
+                "thumb": "../../app/themes/mobirise4/components/_images/gallery/gallery03.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "Monday Race Team Practice",
@@ -1157,8 +1143,6 @@
           "_anchor": "footer1-47",
           "_cid": "qrXjj30bcL",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         }
       ]
@@ -1167,7 +1151,7 @@
       "settings": {
         "meta_descr": "Web Page Builder Description",
         "title": "Fundraising",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -1552,8 +1536,6 @@
           "_cid": "qr5CqFgi7F",
           "_anchor": "menu1-2r",
           "_protectedParams": [],
-          "_global": true,
-          "_once": "menu",
           "_params": {}
         },
         {
@@ -1574,8 +1556,6 @@
           "_cid": "qrPWDpzhS6",
           "_anchor": "header2-2s",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         },
         {
@@ -1595,8 +1575,6 @@
           "_cid": "qrRNWaukRr",
           "_anchor": "content1-3w",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         },
         {
@@ -1613,8 +1591,6 @@
           "_cid": "qrRQekrLRY",
           "_anchor": "content4-3y",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         },
         {
@@ -1643,8 +1619,6 @@
           "_cid": "qrRSQH51i2",
           "_anchor": "info2-42",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         },
         {
@@ -1672,8 +1646,6 @@
           "_cid": "qrRTJJkDkj",
           "_anchor": "info3-43",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         },
         {
@@ -1754,8 +1726,6 @@
           "_anchor": "footer1-48",
           "_cid": "qrXjkNgaUj",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         }
       ]
@@ -2149,8 +2119,6 @@
           "_cid": "qr5CqFgi7F",
           "_anchor": "menu1-1h",
           "_protectedParams": [],
-          "_global": true,
-          "_once": "menu",
           "_params": {}
         },
         {
@@ -2174,8 +2142,6 @@
           "_cid": "qrnfZBJ4fQ",
           "_anchor": "header5-1q",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         },
         {
@@ -2273,8 +2239,6 @@
           "_cid": "qzAJrIbf0k",
           "_anchor": "table1-4o",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         },
         {
@@ -2355,8 +2319,6 @@
           "_anchor": "footer1-49",
           "_cid": "qrXjnM5OfS",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         }
       ]
@@ -2750,8 +2712,6 @@
           "_cid": "qr5CqFgi7F",
           "_anchor": "menu1-1f",
           "_protectedParams": [],
-          "_global": true,
-          "_once": "menu",
           "_params": {}
         },
         {
@@ -2772,8 +2732,6 @@
           "_anchor": "header5-1x",
           "_cid": "qrnopbV8ym",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         },
         {
@@ -2854,8 +2812,6 @@
           "_anchor": "footer1-4a",
           "_cid": "qrXjqRlcbw",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         }
       ]
@@ -3249,8 +3205,6 @@
           "_cid": "qr5CqFgi7F",
           "_anchor": "menu1-16",
           "_protectedParams": [],
-          "_global": true,
-          "_once": "menu",
           "_params": {}
         },
         {
@@ -3267,8 +3221,6 @@
           "_cid": "qrPPaKf1X2",
           "_anchor": "content4-2j",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         },
         {
@@ -3291,8 +3243,6 @@
           "_cid": "qrPPPGQOTC",
           "_anchor": "content1-2m",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         },
         {
@@ -3342,8 +3292,6 @@
           "_cid": "qrPRUrlsFS",
           "_anchor": "content11-2p",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         },
         {
@@ -3357,8 +3305,6 @@
           "_cid": "qrPPJgHIDn",
           "_anchor": "content8-2l",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         },
         {
@@ -3439,8 +3385,6 @@
           "_anchor": "footer1-4b",
           "_cid": "qrXjwtnBVC",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         }
       ]
@@ -3834,8 +3778,6 @@
           "_cid": "qr5CqFgi7F",
           "_anchor": "menu1-15",
           "_protectedParams": [],
-          "_global": true,
-          "_once": "menu",
           "_params": {}
         },
         {
@@ -3892,8 +3834,6 @@
           "_cid": "qAjMlZ87F0",
           "_anchor": "features16-4r",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         },
         {
@@ -3950,8 +3890,6 @@
           "_cid": "qAjMJowERs",
           "_anchor": "features16-4s",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         },
         {
@@ -4032,8 +3970,6 @@
           "_anchor": "footer1-4c",
           "_cid": "qrXjzyPBSW",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         }
       ]
@@ -4427,8 +4363,6 @@
           "_cid": "qr5CqFgi7F",
           "_anchor": "menu1-y",
           "_protectedParams": [],
-          "_global": true,
-          "_once": "menu",
           "_params": {}
         },
         {
@@ -4449,8 +4383,6 @@
           "_cid": "qrbqAAjYfN",
           "_anchor": "header2-z",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         },
         {
@@ -4474,8 +4406,6 @@
           "_cid": "qrRvOGfvSm",
           "_anchor": "header4-3t",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         },
         {
@@ -4500,8 +4430,6 @@
           "_anchor": "content5-2g",
           "_cid": "qrPNYu3TJn",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         },
         {
@@ -4562,8 +4490,6 @@
           "_anchor": "features17-2h",
           "_cid": "qrPNYVApqT",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         },
         {
@@ -4597,8 +4523,6 @@
           "_anchor": "features2-2i",
           "_cid": "qrPNZa6Xli",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         },
         {
@@ -4679,8 +4603,6 @@
           "_anchor": "footer1-4d",
           "_cid": "qrXjBCTcTC",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         }
       ]
@@ -5074,8 +4996,6 @@
           "_cid": "qr5CqFgi7F",
           "_anchor": "menu1-x",
           "_protectedParams": [],
-          "_global": true,
-          "_once": "menu",
           "_params": {}
         },
         {
@@ -5116,8 +5036,6 @@
           "_cid": "qrmDXj5Y9E",
           "_anchor": "form1-1e",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         },
         {
@@ -5198,8 +5116,6 @@
           "_anchor": "footer1-4e",
           "_cid": "qrXjFsQAdZ",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         }
       ]
@@ -5593,8 +5509,6 @@
           "_cid": "qr5CqFgi7F",
           "_anchor": "menu1-o",
           "_protectedParams": [],
-          "_global": true,
-          "_once": "menu",
           "_params": {}
         },
         {
@@ -5613,8 +5527,6 @@
           "_cid": "qrbgV0NNWR",
           "_anchor": "footer6-r",
           "_protectedParams": [],
-          "_global": true,
-          "_once": true,
           "_params": {}
         },
         {
@@ -5635,8 +5547,6 @@
           "_cid": "qrbhe5aD2O",
           "_anchor": "header2-t",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         },
         {
@@ -5657,8 +5567,6 @@
           "_cid": "qrPIvZ2awf",
           "_anchor": "header5-26",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         },
         {
@@ -5701,8 +5609,6 @@
           "_cid": "qrPo8jaGeR",
           "_anchor": "header3-23",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         },
         {
@@ -5719,8 +5625,6 @@
           "_cid": "qrQLJkKETC",
           "_anchor": "content4-3q",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         },
         {
@@ -5754,8 +5658,6 @@
           "_anchor": "features2-3p",
           "_cid": "qrQK31Ypuk",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         },
         {
@@ -5836,8 +5738,6 @@
           "_anchor": "footer1-4f",
           "_cid": "qrXjJl6d3b",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         }
       ]
@@ -6231,8 +6131,6 @@
           "_cid": "qr5CqFgi7F",
           "_anchor": "menu1-n",
           "_protectedParams": [],
-          "_global": true,
-          "_once": "menu",
           "_params": {}
         },
         {
@@ -6253,8 +6151,6 @@
           "_cid": "qrbiLySpCA",
           "_anchor": "header2-w",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         },
         {
@@ -6279,8 +6175,6 @@
           "_cid": "qrmz8edf01",
           "_anchor": "content5-14",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         },
         {
@@ -6341,8 +6235,6 @@
           "_cid": "qrmusJ7vs8",
           "_anchor": "features17-11",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         },
         {
@@ -6376,8 +6268,6 @@
           "_cid": "qrmykcMARL",
           "_anchor": "features2-13",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         },
         {
@@ -6458,8 +6348,6 @@
           "_anchor": "footer1-4g",
           "_cid": "qrXjMWOOQN",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         }
       ]
@@ -6853,8 +6741,6 @@
           "_cid": "qr5CqFgi7F",
           "_anchor": "menu1-i",
           "_protectedParams": [],
-          "_global": true,
-          "_once": "menu",
           "_params": {}
         },
         {
@@ -6875,8 +6761,6 @@
           "_cid": "qrRAXG6z1i",
           "_anchor": "header2-3u",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         },
         {
@@ -7002,8 +6886,6 @@
           "_cid": "qrns7RlCpU",
           "_anchor": "timeline1-1y",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         },
         {
@@ -7028,8 +6910,6 @@
           "_cid": "qrQ9YegWlS",
           "_anchor": "info1-39",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         },
         {
@@ -7057,8 +6937,6 @@
           "_cid": "qrRHqfFnGA",
           "_anchor": "info2-3v",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         },
         {
@@ -7139,8 +7017,6 @@
           "_anchor": "footer1-4h",
           "_cid": "qrXjPiQAOq",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         }
       ]
@@ -7537,8 +7413,6 @@
           "_cid": "qr5CqFgi7F",
           "_anchor": "menu1-g",
           "_protectedParams": [],
-          "_global": true,
-          "_once": "menu",
           "_params": {}
         },
         {
@@ -7787,8 +7661,6 @@
             "slides__showBullets",
             "slides"
           ],
-          "_global": false,
-          "_once": false,
           "_params": {
             "slides__autoplay": true,
             "slides__autoplayInterval": "5000",
@@ -7947,8 +7819,6 @@
           "_cid": "qwmbWjvU2E",
           "_anchor": "info1-4j",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         },
         {
@@ -8029,9 +7899,18 @@
           "_anchor": "footer1-44",
           "_cid": "qrXisv8QQe",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#444444",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          }
         }
       ]
     },
@@ -8424,8 +8303,6 @@
           "_cid": "qr5CqFgi7F",
           "_anchor": "menu1-4l",
           "_protectedParams": [],
-          "_global": true,
-          "_once": "menu",
           "_params": {}
         },
         {
@@ -8468,8 +8345,6 @@
           "_cid": "qwrNLpYCZ7",
           "_anchor": "map2-4n",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
         },
         {
@@ -8550,525 +8425,7 @@
           "_anchor": "footer1-4m",
           "_cid": "qwrNGEEZBr",
           "_protectedParams": [],
-          "_global": false,
-          "_once": false,
           "_params": {}
-        }
-      ]
-    },
-    "privacy.html": {
-      "settings": {
-        "meta_descr": "Privacy Page",
-        "title": "Privacy",
-        "order": 5
-      },
-      "components": [
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-section-subtitle": {
-              "color": "#767676"
-            }
-          },
-          "_name": "content4",
-          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\"><br><br>Privacy Policy</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"></h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.com\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "qD0JMhgSgE",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {},
-          "_anchor": "content4-4w"
-        },
-        {
-          "_name": "menu1",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"5\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#333333\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-dropdown align-items-center\" mbr-class=\"{'navbar-fixed-top': sticky,\n        'navbar-toggleable-sm': !collapsed,\n        'collapsed': collapsed,\n        'bg-color transparent': transparent}\">\n        <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n        <div class=\"menu-logo\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"index.html\">\n                         <img src=\"@PROJECT_PATH@/assets/images/logo-512x512.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-white\" data-app-selector=\".navbar-caption\" href=\"index.html\">Georgia Tech Sailing</a></span>\n            </div>\n        </div>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-if=\"showItems\" mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-7\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-white\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\">\n                        &nbsp;Home</a>\n                </li><li class=\"nav-item dropdown\"><a class=\"nav-link link text-white dropdown-toggle\" href=\"aboutus.html\" data-app-selector=\".nav-link,.dropdown-item\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">\n                        &nbsp;About Us</a><div class=\"dropdown-menu\"><a class=\"text-white dropdown-item\" href=\"aboutus.html\" data-app-selector=\".nav-link,.dropdown-item\">About Us</a><a class=\"text-white dropdown-item\" href=\"history.html\" data-app-selector=\".nav-link,.dropdown-item\">Club History</a><a class=\"text-white dropdown-item\" href=\"raceteam.html\" data-app-selector=\".nav-link,.dropdown-item\">Race Team</a><a class=\"text-white dropdown-item\" href=\"alumni.html\" data-app-selector=\".nav-link,.dropdown-item\">Alumni</a><a class=\"text-white dropdown-item\" href=\"howtojoin.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\">How to Join</a><a class=\"text-white dropdown-item\" href=\"media.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\">Media</a></div></li><li class=\"nav-item dropdown\"><a class=\"nav-link link text-white dropdown-toggle\" href=\"clubevents.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">\n                        &nbsp;Our Events</a><div class=\"dropdown-menu\"><a class=\"text-white dropdown-item\" href=\"clubevents.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\">Club Events</a><a class=\"text-white dropdown-item\" href=\"raceteamevents.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\">Race Team Events</a><a class=\"text-white dropdown-item\" href=\"clubcalendar.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\">Club Calendar</a></div></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"fundraising.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"true\">\n                        &nbsp;Support</a></li><li class=\"nav-item dropdown\"><a class=\"nav-link link text-white dropdown-toggle\" href=\"clubevents.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">\n                        &nbsp;Contact Us</a><div class=\"dropdown-menu\"><a class=\"text-white dropdown-item\" href=\"execboard.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"true\">Executive Board</a><a class=\"text-white dropdown-item\" href=\"contact.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"true\">Contact Form</a></div></li><li class=\"nav-item dropdown\"><a class=\"nav-link link text-white\" href=\"fundraising.html\" data-app-selector=\".nav-link,.dropdown-item\" aria-expanded=\"true\"></a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\"></a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-sm btn-primary\" href=\"https://squareup.com/store/gtsailing\" target=\"_blank\">Gear Store</a></div>\n        </div>\n    </nav>\n</section>",
-          "_styles": {
-            ".navbar": {
-              "padding": ".5rem 0",
-              "background": "@menuBgColor",
-              "transition": "none",
-              "min-height": "77px"
-            },
-            ".navbar-dropdown.bg-color.transparent.opened": {
-              "background": "@menuBgColor"
-            },
-            "a": {
-              "font-style": "normal"
-            },
-            ".nav-item": {
-              "& span": {
-                "padding-right": "0.4em",
-                "font-size": "1.6rem",
-                "line-height": "0.5em",
-                "vertical-align": "text-bottom",
-                "position": "relative",
-                "top": "-0.2em",
-                "text-decoration": "none"
-              },
-              "& a": {
-                "padding": "0.7rem 0 !important",
-                "margin": "0rem .65rem !important"
-              }
-            },
-            ".btn": {
-              "padding": "0.4rem 1.5rem",
-              ".mbr-iconfont": {
-                "font-size": "1.6rem"
-              },
-              "display": "inline-flex",
-              "align-items": "center"
-            },
-            ".menu-logo": {
-              "margin-right": "auto",
-              ".navbar-brand": {
-                "display": "flex",
-                "margin-left": "5rem",
-                "padding": "0",
-                "transition": "padding .2s",
-                "min-height": "3.8rem",
-                "align-items": "center",
-                ".navbar-caption-wrap": {
-                  "display": "-webkit-flex",
-                  "-webkit-align-items": "center",
-                  "align-items": "center",
-                  "word-break": "break-word",
-                  "min-width": "7rem",
-                  "margin": ".3rem 0",
-                  ".navbar-caption": {
-                    "line-height": "1.2rem !important",
-                    "padding-right": "2rem"
-                  }
-                },
-                ".navbar-logo": {
-                  "font-size": "4rem",
-                  "transition": "font-size 0.25s",
-                  "& img": {
-                    "display": "flex"
-                  },
-                  ".mbr-iconfont": {
-                    "transition": "font-size 0.25s"
-                  }
-                }
-              }
-            },
-            ".navbar-toggleable-sm .navbar-collapse": {
-              "justify-content": "flex-end",
-              "-webkit-justify-content": "flex-end",
-              "padding-right": "5rem",
-              "width": "auto",
-              ".navbar-nav": {
-                "flex-wrap": "wrap",
-                "-webkit-flex-wrap": "wrap",
-                "padding-left": "0",
-                ".nav-item": {
-                  "-webkit-align-self": "center",
-                  "align-self": "center"
-                }
-              },
-              ".navbar-buttons": {
-                "padding-left": "0",
-                "padding-bottom": "0"
-              }
-            },
-            ".dropdown": {
-              ".dropdown-menu": {
-                "background": "@menuBgColor",
-                "display": "none",
-                "position": "absolute",
-                "min-width": "5rem",
-                "padding-top": "1.4rem",
-                "padding-bottom": "1.4rem",
-                "text-align": "left",
-                ".dropdown-item": {
-                  "width": "auto",
-                  "padding": "0.235em 1.5385em 0.235em 1.5385em !important",
-                  "&::after": {
-                    "right": "0.5rem"
-                  }
-                },
-                ".dropdown-submenu": {
-                  "margin": "0"
-                }
-              },
-              "&.open > .dropdown-menu": {
-                "display": "block"
-              }
-            },
-            ".navbar-toggleable-sm": {
-              "&.opened:after": {
-                "position": "absolute",
-                "width": "100vw",
-                "height": "100vh",
-                "content": "''",
-                "background-color": "rgba(0, 0, 0, 0.1)",
-                "left": "0",
-                "bottom": "0",
-                "transform": "translateY(100%)",
-                "-webkit-transform": "translateY(100%)",
-                "z-index": "1000"
-              }
-            },
-            ".navbar.navbar-short": {
-              "min-height": "60px",
-              "transition": "all .2s",
-              "& .navbar-toggler-right": {
-                "top": "20px"
-              },
-              "& .navbar-logo a": {
-                "font-size": "2.5rem !important",
-                "line-height": "2.5rem",
-                "transition": "font-size 0.25s",
-                "& .mbr-iconfont": {
-                  "font-size": "2.5rem !important"
-                },
-                "& img": {
-                  "height": "3rem !important"
-                }
-              },
-              "& .navbar-brand": {
-                "min-height": "3rem"
-              }
-            },
-            "button.navbar-toggler": {
-              "width": "31px",
-              "height": "18px",
-              "cursor": "pointer",
-              "transition": "all .2s",
-              "top": "1.5rem",
-              "right": "1rem",
-              "&:focus": {
-                "outline": "none"
-              },
-              ".hamburger span": {
-                "position": "absolute",
-                "right": "0",
-                "width": "30px",
-                "height": "2px",
-                "border-right": "5px",
-                "background-color": "@hamburgerColor",
-                "&:nth-child(1)": {
-                  "top": "0",
-                  "transition": "all .2s"
-                },
-                "&:nth-child(2)": {
-                  "top": "8px",
-                  "transition": "all .15s"
-                },
-                "&:nth-child(3)": {
-                  "top": "8px",
-                  "transition": "all .15s"
-                },
-                "&:nth-child(4)": {
-                  "top": "16px",
-                  "transition": "all .2s"
-                }
-              }
-            },
-            "nav.opened .hamburger span": {
-              "&:nth-child(1)": {
-                "top": "8px",
-                "width": "0",
-                "opacity": "0",
-                "right": "50%",
-                "transition": "all .2s"
-              },
-              "&:nth-child(2)": {
-                "-webkit-transform": "rotate(45deg)",
-                "transform": "rotate(45deg)",
-                "transition": "all .25s"
-              },
-              "&:nth-child(3)": {
-                "-webkit-transform": "rotate(-45deg)",
-                "transform": "rotate(-45deg)",
-                "transition": "all .25s"
-              },
-              "&:nth-child(4)": {
-                "top": "8px",
-                "width": "0",
-                "opacity": "0",
-                "right": "50%",
-                "transition": "all .2s"
-              }
-            },
-            ".collapsed": {
-              ".btn": {
-                "display": "flex"
-              },
-              ".navbar-collapse": {
-                "display": "none !important",
-                "padding-right": "0 !important",
-                "&.collapsing,&.show": {
-                  "display": "block !important",
-                  ".navbar-nav": {
-                    "display": "block",
-                    "text-align": "center",
-                    ".nav-item": {
-                      "clear": "both",
-                      "& when (@showButtons = false)": {
-                        "&:last-child": {
-                          "margin-bottom": "1rem"
-                        }
-                      }
-                    }
-                  },
-                  ".navbar-buttons": {
-                    "text-align": "center",
-                    "&:last-child": {
-                      "margin-bottom": "1rem"
-                    }
-                  }
-                }
-              },
-              "button.navbar-toggler": {
-                "display": "block"
-              },
-              ".navbar-brand": {
-                "margin-left": "1rem !important",
-                "margin-top": ".5rem"
-              },
-              ".navbar-toggleable-sm": {
-                "flex-direction": "column",
-                "-webkit-flex-direction": "column"
-              },
-              ".dropdown": {
-                ".dropdown-menu": {
-                  "width": "100%",
-                  "text-align": "center",
-                  "position": "relative",
-                  "opacity": "0",
-                  "display": "block",
-                  "height": "0",
-                  "visibility": "hidden",
-                  "padding": "0",
-                  "transition-duration": ".5s",
-                  "transition-property": "opacity,padding,height"
-                },
-                "&.open > .dropdown-menu": {
-                  "position": "relative",
-                  "opacity": "1",
-                  "height": "auto",
-                  "padding": "1.4rem 0",
-                  "visibility": "visible"
-                },
-                ".dropdown-submenu": {
-                  "left": "0",
-                  "text-align": "center",
-                  "width": "100%"
-                },
-                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
-                  "margin-top": "0",
-                  "position": "inherit",
-                  "right": "0",
-                  "top": "50%",
-                  "display": "inline-block",
-                  "width": "0",
-                  "height": "0",
-                  "margin-left": ".3em",
-                  "vertical-align": "middle",
-                  "content": "\"\"",
-                  "border-top": ".30em solid",
-                  "border-right": ".30em solid transparent",
-                  "border-left": ".30em solid transparent"
-                }
-              }
-            },
-            "@media (max-width: 991px)": {
-              "img": {
-                "height": "3.8rem !important"
-              },
-              ".btn": {
-                "display": "flex"
-              },
-              "button.navbar-toggler": {
-                "display": "block"
-              },
-              ".navbar-brand": {
-                "margin-left": "1rem !important",
-                "margin-top": ".5rem"
-              },
-              ".navbar-toggleable-sm": {
-                "flex-direction": "column",
-                "-webkit-flex-direction": "column"
-              },
-              ".navbar-collapse": {
-                "display": "none !important",
-                "padding-right": "0 !important",
-                "&.collapsing,&.show": {
-                  "display": "block !important",
-                  ".navbar-nav": {
-                    "display": "block",
-                    "text-align": "center",
-                    ".nav-item": {
-                      "clear": "both",
-                      "& when (@showButtons = false)": {
-                        "&:last-child": {
-                          "margin-bottom": "1rem"
-                        }
-                      }
-                    }
-                  },
-                  ".navbar-buttons": {
-                    "text-align": "center",
-                    "&:last-child": {
-                      "margin-bottom": "1rem"
-                    }
-                  }
-                }
-              },
-              ".dropdown": {
-                ".dropdown-menu": {
-                  "width": "100%",
-                  "text-align": "center",
-                  "position": "relative",
-                  "opacity": "0",
-                  "display": "block",
-                  "height": "0",
-                  "visibility": "hidden",
-                  "padding": "0",
-                  "transition-duration": ".5s",
-                  "transition-property": "opacity,padding,height"
-                },
-                "&.open > .dropdown-menu": {
-                  "position": "relative",
-                  "opacity": "1",
-                  "height": "auto",
-                  "padding": "1.4rem 0",
-                  "visibility": "visible"
-                },
-                ".dropdown-submenu": {
-                  "left": "0",
-                  "text-align": "center",
-                  "width": "100%"
-                },
-                ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]::after": {
-                  "margin-top": "0",
-                  "position": "inherit",
-                  "right": "0",
-                  "top": "50%",
-                  "display": "inline-block",
-                  "width": "0",
-                  "height": "0",
-                  "margin-left": ".3em",
-                  "vertical-align": "middle",
-                  "content": "\"\"",
-                  "border-top": ".30em solid",
-                  "border-right": ".30em solid transparent",
-                  "border-left": ".30em solid transparent"
-                }
-              }
-            }
-          },
-          "_cid": "qD0JMfUVAJ",
-          "_protectedParams": [],
-          "_global": true,
-          "_once": "menu",
-          "_params": {},
-          "_anchor": "menu1-4t"
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-text, blockquote": {
-              "color": "#767676"
-            },
-            ".mbr-text": {
-              "text-align": "left"
-            }
-          },
-          "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"7\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 col-md-8 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article><p><b>Sailing at Georgia Tech Online Privacy Policy</b></p><p>This privacy policy has been compiled to better serve those who are concerned with how their 'Personally Identifiable Information' (PII) is being used online. PII, as described in US privacy law and information security, is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context. Please read our privacy policy carefully to get a clear understanding of how we collect, use, protect or otherwise handle your Personally Identifiable Information in accordance with our website.</p><p><b>What personal information do we collect from the people that visit our blog, website or app?</b></p><p>We do not collect information from visitors of our site, except when that information is provided via forms (such as the contact us form). In this case, information is emailed to the executive board for Georgia Tech Sailing exclusively and used only for the exact purposes explained in the forms.</p><p><b>Do we use 'cookies'?</b></p><p>We do not use cookies for tracking purposes</p><p><b>Third-party disclosure</b></p><p>We do not sell, trade, or otherwise transfer to outside parties your Personally Identifiable Information.</p><p><b>Third-party links</b></p><p>We do not include or offer direct third-party products or services on our website.</p><p><br></p><p><br></p></div>\n        </div>\n    </div>\n</section>",
-          "_cid": "qD0JMh1C3L",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {},
-          "_anchor": "content1-4v"
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            ".content": {
-              "@media (max-width: 767px)": {
-                "text-align": "center",
-                "> div:not(:last-child)": {
-                  "margin-bottom": "2rem"
-                }
-              }
-            },
-            ".media-wrap": {
-              "@media (max-width: 767px)": {
-                "margin-bottom": "1rem"
-              },
-              ".mbr-iconfont-logo": {
-                "font-size": "7.5rem",
-                "color": "#f36"
-              },
-              "img": {
-                "height": "6rem"
-              }
-            },
-            ".footer-lower": {
-              ".copyright": {
-                "@media (max-width: 767px)": {
-                  "margin-bottom": "1rem",
-                  "text-align": "center"
-                }
-              },
-              "hr": {
-                "margin": "1rem 0",
-                "border-color": "#fff",
-                "opacity": ".05"
-              },
-              ".social-list": {
-                "padding-left": "0",
-                "margin-bottom": "0",
-                "list-style": "none",
-                "display": "flex",
-                "flex-wrap": "wrap",
-                "justify-content": "flex-end",
-                "-webkit-justify-content": "flex-end",
-                ".mbr-iconfont-social": {
-                  "font-size": "1.3rem",
-                  "color": "#fff"
-                },
-                ".soc-item": {
-                  "margin": "0 .5rem"
-                },
-                "a": {
-                  "margin": "0",
-                  "opacity": ".5",
-                  "-webkit-transition": ".2s linear",
-                  "transition": ".2s linear",
-                  "&:hover": {
-                    "opacity": "1"
-                  }
-                },
-                "@media (max-width: 767px)": {
-                  "justify-content": "center",
-                  "-webkit-justify-content": "center"
-                }
-              }
-            }
-          },
-          "_name": "footer1",
-          "_customHTML": "<section group=\"Footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->  \n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Show Copyright\" name=\"showCopyright\" checked>\n        <select title=\"Icons\" name=\"iconsCount\">\n            <option value=\"0\">0</option>\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/jumbotron.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#2e2e2e\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#3C3C3C\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row content text-white\">\n            <div class=\"col-12 col-md-3\">\n                <div class=\"media-wrap\">\n                    <a href=\"index.html\">\n                        <img src=\"@PROJECT_PATH@/assets/images/logo-512x512.png\" alt=\"Mobirise\" title>\n                    </a>\n                </div>\n            </div>\n            <div class=\"col-12 col-md-3 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <h5 class=\"pb-3\"></h5>\n                <p class=\"mbr-text\"></p>\n            </div>\n            <div class=\"col-12 col-md-3 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <h5 class=\"pb-3\"></h5>\n                <p class=\"mbr-text\"></p>\n            </div>\n            <div class=\"col-12 col-md-3 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <h5 class=\"pb-3\"></h5>\n                <p class=\"mbr-text\"></p>\n            </div>\n        </div>\n        <div class=\"footer-lower\" mbr-if=\"showCopyright\">\n            <div class=\"media-container-row\">\n                <div class=\"col-sm-12\">\n                    <hr>\n                </div>\n            </div>\n            <div class=\"media-container-row mbr-white\">\n                <div class=\"col-sm-6 copyright\">\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".copyright > p\">\n                        © Copyright 2017 by Sailing Club at Georgia Tech</p>\n                </div>\n                <div class=\"col-md-6\">\n                    <div class=\"social-list align-right\" mbr-if=\"iconsCount > 0\">\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>0\">\n                            <a href=\"https://www.facebook.com/gtsailingclub/\" target=\"_blank\">\n                                <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-facebook socicon\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>1\">\n                            <a href=\"https://www.instagram.com/gtsailing/\" target=\"_blank\">\n                                <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>2\">\n                            <a href=\"https://orgsync.com/135878/chapter\" target=\"_blank\">\n                                <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-opera socicon\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>3\">\n                            <a href=\"https://orgsync.com/135878/chapter\" target=\"_blank\">\n                                <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-opera socicon\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>4\">\n                            <a href=\"https://plus.google.com/u/0/+Mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-googleplus socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                        <div class=\"soc-item\" mbr-if=\"iconsCount>5\">\n                            <a href=\"https://www.behance.net/Mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"socicon-behance socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </a>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "qD0JMivoSV",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {},
-          "_anchor": "footer1-4z"
         }
       ]
     }
