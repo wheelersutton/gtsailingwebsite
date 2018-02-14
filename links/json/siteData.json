@@ -1,0 +1,137 @@
+{
+  "version":"2.1.5",
+  "html_version":"2.0",
+  "invalid_version_error":"Wrong app version! Delete, clear cache, redownload.",
+  "banner":{
+    "display":"no",
+    "text":"Latest Version",
+    "bgcolor":"green",
+    "textcolor":"white",
+    "link":"",
+    "timeout":-1
+  },
+  "elements":[
+    {
+      "type":"sep",
+      "title":"Checkout Process"
+    },
+    {
+      "link":"https://goo.gl/EZZvNv",
+      "title":"Checkout Form",
+      "float":"left",
+      "ico":"ico/sicon.png"
+    },
+    {
+      "link":"https://goo.gl/forms/hhTk8m7ncuIrt07s2",
+      "title":"Raceteam Checkout",
+      "float":"right",
+      "ico":"ico/sicon.png"
+    },
+    {
+      "link":"https://drive.google.com/folderview?id=0BzGlEuUeu70KZ19PR2lFREtqRDA&usp=sharing",
+      "title":"Float Plans",
+      "float":"left",
+      "ico":"ico/sicon.png"
+    },
+    {
+      "link":"https://goo.gl/gNd68a",
+      "title":"Keelboat Reservations",
+      "float":"right",
+      "ico":"ico/nicon.png"
+    },
+    {
+      "link":"http://goo.gl/forms/Y5SgekGFzX",
+      "title":"Maintenance Issue",
+      "float":"left",
+      "ico":"ico/wicon.png"
+    },
+    {
+      "type":"sep",
+      "title":"Certification"
+    },
+    {
+      "link":"https://goo.gl/forms/szECP3ewqJJUIFn72",
+      "title":"Certification Form",
+      "float":"left",
+      "ico":"ico/cicon.png"
+    },
+    {
+      "link":"https://drive.google.com/open?id=11p8NzXr_EY7H6Ac1fnt7eGMB-gEBxd-r",
+      "title":"Certification Flowchart",
+      "float":"right",
+      "ico":"ico/cicon.png"
+    },
+    {
+      "link":"https://drive.google.com/folderview?id=0BzGlEuUeu70KZ0NOZEt1UFZDd2M&usp=sharing",
+      "title":"Learning Material",
+      "float":"left",
+      "ico":"ico/cicon.png"
+    },
+    {
+      "link":"/links/documents/On_The_Water_Test_rubric.pdf",
+      "title":"On The Water Rubric",
+      "float":"right",
+      "ico":"ico/cicon.png"
+    },
+    {
+      "type":"sep",
+      "title":"Member Info"
+    },
+    {
+      "link":"https://docs.google.com/spreadsheets/d/1TxI62nARr92N5fk-CgMoqQHhHdRvXeZhe9Dwd_LJSCo/edit?usp=sharing",
+      "title":"Lake Hosts",
+      "float":"left",
+      "ico":"ico/user.png"
+    },
+    {
+      "link":"https://docs.google.com/spreadsheets/d/1lBiQHx_hUQXHZr_YztzKaAsiRg7QuRVCw7XlAcUM2CI/edit?usp=sharing",
+      "title":"Instructors",
+      "float":"right",
+      "ico":"ico/user.png"
+    },
+    {
+      "link":"http://gtsailing.org/links/documents/Constitution_Bylaws.pdf",
+      "title":"Const. and ByLaws",
+      "float":"left",
+      "ico":"ico/cicon.png"
+    },
+    {
+      "link":"https://drive.google.com/folderview?id=0BzGlEuUeu70KZHFHcWRYT2ZjUkk&usp=sharing",
+      "title":"Help Documents",
+      "float":"right",
+      "ico":"ico/cicon.png"
+    },
+    {
+      "type":"sep",
+      "title":"Social Links"
+    },
+    {
+      "link":"https://www.facebook.com/groups/2200495519/",
+      "title":"FB Group",
+      "float":"left",
+      "ico":"ico/fblogo.png"
+    },
+    {
+      "link":"https://www.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23FFFFFF&src=iv8hrg6d9s97j1pj5ot97d2pu0@group.calendar.google.com&color=%23AB8B00ctz=America/New_York",
+      "title":"Calendar",
+      "float":"right",
+      "ico":"ico/calendar.png"
+    },
+    {
+      "link":"https://orgsync.com/135878/chapter",
+      "title":"Orgsync",
+      "float":"left",
+      "ico":"ico/ggicon.png"
+    },
+    {
+      "type":"sep",
+      "title":"Other"
+    },
+    {
+      "link":"https://goo.gl/s4UZ23",
+      "title":"Dues",
+      "float":"left",
+      "ico":"ico/cicon.png"
+    }
+  ]
+}

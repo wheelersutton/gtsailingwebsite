@@ -12,12 +12,12 @@ body{
 }
 
 .background-img {
-   transform: translate3d(0,0,0);  
-} 
+   transform: translate3d(0,0,0);
+}
 
 html {
 	overflow:hidden;
-	
+
 }
 
 html, body
@@ -26,7 +26,7 @@ html, body
 }
 
 a{
-	color:inherit;	
+	color:inherit;
 }
 
 .iframe-rwd  {
@@ -54,13 +54,13 @@ left: 0;
 	background-color:#ffffff;
 	height:auto;
 	min-height:400px;
-	
+
 }
 
 .ease {
 	-moz-transition:all .1s ease-in;
     -o-transition:all.1s ease-in;
-    -webkit-transition:all .1s ease-in;	
+    -webkit-transition:all .1s ease-in;
 }
 
 #links{
@@ -68,10 +68,10 @@ left: 0;
 	height:auto;
 	padding: 0px 5px 10px 5px;
 	max-width:375px;
-	
+
 	margin:auto;
 	/*background-color:rgba(212,17,207,1.00);	*/
-	
+
 }
 
 .LinkHolder{
@@ -98,7 +98,7 @@ left: 0;
 	margin:auto;
 	background-color:#40668B;
 	background-image:url(chevron-dark-blue.png);
-	padding-bottom:5px;	
+	padding-bottom:5px;
 	margin-top:-5px;
 	box-shadow:0px 0px 5px #000000 inset;
 }
@@ -114,12 +114,52 @@ left: 0;
 	color:#D2D2D2;
 }
 
+.sep{
+	width: 100%;
+  height: 1px;
+  background-color: #DDD;
+  margin-bottom: 1px;
+  margin-top: 20px;
+  display: inline-block;
+	text-align: center;
+	position: relative;
+}
+
+.titleText {
+	position:absolute;
+	width: 100%;
+	transform: translate(0%, -50%);
+}
+
+.banner{
+	position: relative;
+	display: none;
+	background-color: rgba(255,0,0,1);
+	height: 13px;
+	right: 0px;
+	top: 0px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	padding:5px;
+	padding-top: 0px;
+	color: white;
+	vertical-align: middle;
+	text-align: center;
+}
+
 
 
 .right{
-	float:right;	
+	float:right;
 	/*background-color:rgba(15,31,218,1.00);*/
 }
+
+.center{
+	position:relative;
+	transform: translateX(55%);
+	/*background-color:rgba(15,31,218,1.00);*/
+}
+
 #footer{
 	width:100%;
 	height:40px;
@@ -153,13 +193,23 @@ left: 0;
 	-khtml-user-select: none;
 	-webkit-user-select: none;
 	-o-user-select: none;
-	cursor:pointer;	
+	cursor:pointer;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
 }
 
 
 @media only screen and (max-width:360px){
 	.LinkHolder{
-		display:block;	
+		display:block;
 		width:100%;
 	}
 	.right{
