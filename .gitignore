@@ -1,5 +1,7 @@
 .DS_Store
 .ftpconfig
+*.php
 backend
 ipn
-regatta
+regatta/backups
+regatta/images/backgrounds
