@@ -66,6 +66,20 @@
                                   supported by Chrome and Opera */
 }
 
+.table-striped {
+  background-color: #f7f7f7;
+  margin-top: 0px;
+  margin-bottom: 2px;
+  padding-left: 500px;
+  padding-right: 500px;
+}
+
+.table-hover {
+  background-color: #f7f7f7;
+}
+.table-condensed {
+  background-color: #f7f7f7;
+}
 
 
 
@@ -97,3 +111,23 @@
 .tooltip:hover .tooltiptext {
     visibility: visible;
 }
+
+
+
+.box-icon-bordered {
+  border: 2px solid #f2f2f2;
+  background: #ffffff;
+}
+
+.text-center {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.divider {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
