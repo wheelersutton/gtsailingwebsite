@@ -17,7 +17,7 @@ $( document ).ready(function() {
         );
       }else{
         $('#links').append(
-          "<a target=\"_blank\" href=\"" + data[i].link + "\"><div id=\"rightBlock\" class=\"LinkHolder noHighlight" + float + "\">" + data[i].title + "<div class=\"linkIcon ease\"><img src=\"" + data[i].ico + "\" height=\"22px\" alt=\"" + data[i].title + "\" /></div</div></a>"
+          "<a target=\"_blank\" href=\"" + data[i].link + "\"><div id=\"rightBlock\" class=\"LinkHolder noHighlight" + float + "\">" + data[i].title + "<div class=\"linkIcon ease\"><img src=\"https://www.gtsailing.org/links/" + data[i].ico + "\" height=\"22px\" alt=\"" + data[i].title + "\" /></div</div></a>"
         );
       }
     }

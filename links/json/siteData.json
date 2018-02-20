@@ -3,8 +3,8 @@
   "html_version":"2.0",
   "invalid_version_error":"Wrong app version! Delete, clear cache, redownload.",
   "banner":{
-    "display":"no",
-    "text":"Latest Version",
+    "display":"yes",
+    "text":"Remember to checkout boats!",
     "bgcolor":"green",
     "textcolor":"white",
     "link":"",
