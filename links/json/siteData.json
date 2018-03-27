@@ -4,7 +4,7 @@
   "invalid_version_error":"Wrong app version! Delete, clear cache, redownload.",
   "banner":{
     "display":"yes",
-    "text":"Remember to checkout boats!",
+    "text":"Check out the leaderboard at the bottom!",
     "bgcolor":"green",
     "textcolor":"white",
     "link":"",
@@ -68,7 +68,7 @@
       "ico":"ico/cicon.png"
     },
     {
-      "link":"/links/documents/On_The_Water_Test_rubric.pdf",
+      "link":"/links/documents/On-The-Water-Rubric.pdf",
       "title":"On The Water Rubric",
       "float":"right",
       "ico":"ico/cicon.png"
@@ -90,7 +90,7 @@
       "ico":"ico/user.png"
     },
     {
-      "link":"http://gtsailing.org/links/documents/Constitution_Bylaws.pdf",
+      "link":"https://drive.google.com/file/d/1s55h1aBAHaKWFBBk2wPbkyvK30WoAlal/view?usp=sharing",
       "title":"Const. and ByLaws",
       "float":"left",
       "ico":"ico/cicon.png"
