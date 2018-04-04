@@ -48,7 +48,7 @@ $(document).ready(function() {
     console.log(e);
   });
 
-  $.getJSON("https://script.googleusercontent.com/macros/echo?user_content_key=blgPgXi-TNQBGUuM-SDZml3O2-NsRfucA79IWkER5FPN4a4gJ0YTXqfUBX4R7HCWj4tVyftyZ3IQjVJH_8dqmr5DNQc0kMklm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnH1Vt3Uy4jbLsHQCvQKsR16qdlN7Sf9g7tbbTRWe5RPbM6kyfY_6UK34NjEoAWiFjw&lib=Mt6jOg-0Z7s9-stk-ozcAjbUc_Q5CG5v6", function(file) {
+  $.getJSON("https://script.google.com/macros/s/AKfycbybDJAuKgJI8PC8MHBIPUryvWMVS9_2XkYSUOvw7LOMNjKQVMKS/exec?req=fetch", function(file) {
     var leader = file;
     $('#links').append(
       "<div class=\"sep\"><div class=\"titleText noselect\">Leaderboard</div></div>"
@@ -57,21 +57,30 @@ $(document).ready(function() {
     for (var i = 0; i < leader.skipper.length; i++) {
       text += (i + 1) + ": " + leader.skipper[i].name + " (" + leader.skipper[i].val + ")<br/>";
     }
-    $('#links').append('<div style="float:left; font-weight:200; margin-left:5px;">' + text + '</div>');
+    $('#links').append('<div style="float:left; font-weight:200; margin-left:5px; width:180px">' + text + '</div>');
 
     var text = '<p style="margin-bottom:2px; font-weight:600;">Crew:</p>';
     for (var i = 0; i < leader.crew.length; i++) {
       text += (i + 1) + ": " + leader.crew[i].name + " (" + leader.crew[i].val + ")<br/>";
     }
-    $('#links').append('<div style="float:right; font-weight:200; margin-right:5px;">' + text + '</div>');
+    $('#links').append('<div style="float:right; font-weight:200; margin-right:5px; width:180px">' + text + '</div>');
+
+    var text = '<p style="margin-bottom:2px; font-weight:600;">Raceteam:</p>';
+    for (var i = 0; i < leader.raceteam.length; i++) {
+      text += (i + 1) + ": " + leader.raceteam[i].name + " (" + leader.raceteam[i].val + ")<br/>";
+    }
+    $('#links').append('<div style="float:left; font-weight:200; margin-left:5px; width:180px">' + text + '</div>');
 
     var text = '<p style="margin-bottom:2px; font-weight:600;">Overall Members:</p>';
     for (var i = 0; i < leader.member.length; i++) {
       text += (i + 1) + ": " + leader.member[i].name + " (" + leader.member[i].val + ")<br/>";
     }
-    $('#links').append('<div style="float:left; font-weight:200; margin-left:5px;">' + text + '</div>');
+    $('#links').append('<div style="float:right; font-weight:200; margin-right:5px; width:180px">' + text + '</div>');
 
-
+    console.log("Ha. Nerd. -GT Exec");
+    console.log('');
+    console.log('Dehash (md5): 667e96841efd7a653610e2f3eba36b48');
+    console.log('Solution has 14 lowercase letters only. Two words,\nno spaces. The solution\'s CRC32 is 0x12BC1CB9.');
 
   });
 
