@@ -4,7 +4,7 @@
     "currentPage": "index.html",
     "versionFirst": "4.0.14",
     "uniqCompNum": 179,
-    "versionPublish": "4.5.2",
+    "versionPublish": "4.5.4",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -38,7 +38,7 @@
         "#2e2e2e"
       ]
     },
-    "favicon": "@PROJECT_PATH@/assets/images/logo-512x512-round-128x129.png",
+    "favicon": "",
     "noImageResize": "",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png"
