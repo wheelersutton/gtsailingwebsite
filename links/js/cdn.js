@@ -55,27 +55,27 @@ $(document).ready(function() {
     );
     var text = '<p style="margin-bottom:2px; font-weight:600;">Skippers:</p>';
     for (var i = 0; i < leader.skipper.length; i++) {
-      text += (i + 1) + ": " + leader.skipper[i].name + " (" + leader.skipper[i].val + ")<br/>";
+      text += (i + 1) + ": " + leader.skipper[i].name + " " + leader.skipper[i].val + "<br/>";
     }
-    $('#links').append('<div style="float:left; font-weight:200; margin-left:5px; width:180px">' + text + '</div>');
+    $('#links').append('<div style="float:left; font-weight:200; margin-left:5px; width:170px; text-overflow: ellipsis;">' + text + '</div>');
 
     var text = '<p style="margin-bottom:2px; font-weight:600;">Crew:</p>';
     for (var i = 0; i < leader.crew.length; i++) {
-      text += (i + 1) + ": " + leader.crew[i].name + " (" + leader.crew[i].val + ")<br/>";
+      text += (i + 1) + ": " + leader.crew[i].name + " " + leader.crew[i].val + "<br/>";
     }
-    $('#links').append('<div style="float:right; font-weight:200; margin-right:5px; width:180px">' + text + '</div>');
+    $('#links').append('<div style="float:right; font-weight:200; margin-right:5px; width:170px; text-overflow: ellipsis;">' + text + '</div>');
 
     var text = '<p style="margin-bottom:2px; font-weight:600;">Raceteam:</p>';
     for (var i = 0; i < leader.raceteam.length; i++) {
-      text += (i + 1) + ": " + leader.raceteam[i].name + " (" + leader.raceteam[i].val + ")<br/>";
+      text += (i + 1) + ": " + leader.raceteam[i].name + " " + leader.raceteam[i].val + "<br/>";
     }
-    $('#links').append('<div style="float:left; font-weight:200; margin-left:5px; width:180px">' + text + '</div>');
+    $('#links').append('<div style="float:left; font-weight:200; margin-left:5px; width:170px; text-overflow: ellipsis;">' + text + '</div>');
 
     var text = '<p style="margin-bottom:2px; font-weight:600;">Overall Members:</p>';
     for (var i = 0; i < leader.member.length; i++) {
-      text += (i + 1) + ": " + leader.member[i].name + " (" + leader.member[i].val + ")<br/>";
+      text += (i + 1) + ": " + leader.member[i].name + " " + leader.member[i].val + "<br/>";
     }
-    $('#links').append('<div style="float:right; font-weight:200; margin-right:5px; width:180px">' + text + '</div>');
+    $('#links').append('<div style="float:right; font-weight:200; margin-right:5px; width:170px; text-overflow: ellipsis;">' + text + '</div>');
 
     console.log("Ha. Nerd. -GT Exec");
     console.log('');
