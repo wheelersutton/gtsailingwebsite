@@ -1,218 +1,215 @@
 @charset "UTF-8";
-
-body{
-	margin:0px;
-	padding:0px;
-	overflow:scroll;
-	/*background-image:url(chevron.png);*/
-	background-color:#23313F;
-	background-image:url('https://www.gtsailing.org/links/chevron-dark-blue.png');
-	min-width:180px;
-	-webkit-overflow-scrolling: touch;
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow: scroll;
+  /*background-image:url(chevron.png);*/
+  background-color: #23313F;
+  background-image: url('https://www.gtsailing.org/links/chevron-dark-blue.png');
+  min-width: 180px;
+  -webkit-overflow-scrolling: touch;
 }
 
 .background-img {
-   transform: translate3d(0,0,0);
+  transform: translate3d(0, 0, 0);
 }
 
 html {
-	overflow:hidden;
-
+  overflow: hidden;
 }
 
-html, body
-{
-    height:100%;
+html, body {
+  height: 100%;
 }
 
-a{
-	color:inherit;
+a {
+  color: inherit;
 }
 
-.iframe-rwd  {
-width:100%;
-position: relative;
-padding-bottom: 250px;
-padding-top: 30px;
-height: 0;
-overflow: hidden;
+.iframe-rwd {
+  width: 100%;
+  position: relative;
+  padding-bottom: 250px;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
 }
+
 .iframe-rwd iframe {
-position: absolute;
-top: 0;
-left: 0;
-/*width: 97.25vw;*/
-
+  position: absolute;
+  top: 0;
+  left: 0;
+  /*width: 97.25vw;*/
 }
 
-#main{
-	width:100%;
-	/*margin:10px;*/
-	font-family: 'Open Sans', sans-serif;
-	/*background-image:url(chevron-dark-blue.png);*/
-	background-image:url('https://www.gtsailing.org/links/chevron.png');
-	background-color:#ffffff;
-	height:auto;
-	min-height:400px;
-
+#main {
+  width: 100%;
+  /*margin:10px;*/
+  font-family: 'Open Sans', sans-serif;
+  /*background-image:url(chevron-dark-blue.png);*/
+  background-image: url('https://www.gtsailing.org/links/chevron.png');
+  background-color: #ffffff;
+  height: auto;
+  min-height: 400px;
 }
 
 .ease {
-	-moz-transition:all .1s ease-in;
-    -o-transition:all.1s ease-in;
-    -webkit-transition:all .1s ease-in;
+  -moz-transition: all .1s ease-in;
+  -o-transition: all.1s ease-in;
+  -webkit-transition: all .1s ease-in;
 }
 
-#links{
-	width:auto;
-	height:auto;
-	padding: 0px 5px 10px 5px;
-	max-width:375px;
-
-	margin:auto;
-	/*background-color:rgba(212,17,207,1.00);	*/
-
+#links {
+  width: auto;
+  height: auto;
+  padding: 0px 5px 10px 5px;
+  max-width: 375px;
+  margin: auto;
+  /*background-color:rgba(212,17,207,1.00);	*/
 }
 
-.LinkHolder{
-	float:left;
-	display:inline-block;
-	width:48%;
-	height:100px;
-	background-color:#FFFFFF;
-	margin-top:15px;
-	text-align:center;
-	line-height:50px;
-	vertical-align:central;
-	border-radius:10px;
-	box-shadow:0px 0px 5px #40668B;/*#0B8EDB;*/
-	overflow:hidden;
-	min-width:170px;
+.LinkHolder {
+  float: left;
+  display: inline-block;
+  width: 48%;
+  height: 100px;
+  background-color: #FFFFFF;
+  margin-top: 15px;
+  text-align: center;
+  line-height: 50px;
+  vertical-align: central;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px #40668B;
+  /*#0B8EDB;*/
+  overflow: hidden;
+  min-width: 170px;
 }
 
-.linkIcon{
-	width:110%;
-	position:relative;
-	left:-5%;
-	height:35px;
-	margin:auto;
-	background-color:#40668B;
-	background-image:url('https://www.gtsailing.org/links/chevron-dark-blue.png');
-	padding-bottom:5px;
-	margin-top:-5px;
-	box-shadow:0px 0px 5px #000000 inset;
+.linkIcon {
+  width: 110%;
+  position: relative;
+  left: -5%;
+  height: 35px;
+  margin: auto;
+  background-color: #40668B;
+  background-image: url('https://www.gtsailing.org/links/chevron-dark-blue.png');
+  padding-bottom: 5px;
+  margin-top: -5px;
+  box-shadow: 0px 0px 5px #000000 inset;
 }
-
 
 /*.LinkHolder:hover .linkIcon{
 	background-color:#23313F;
 	color:#D2D2D2;
 }*/
 
-.LinkHolder:active .linkIcon{
-	background-color:#23313F;
-	color:#D2D2D2;
+.LinkHolder:active .linkIcon {
+  background-color: #23313F;
+  color: #D2D2D2;
 }
 
-.sep{
-	width: 100%;
+.sep {
+  width: 100%;
   height: 1px;
   background-color: #DDD;
   margin-bottom: 1px;
   margin-top: 20px;
   display: inline-block;
-	text-align: center;
-	position: relative;
+  text-align: center;
+  position: relative;
 }
 
 .titleText {
-	position:absolute;
-	width: 100%;
-	transform: translate(0%, -50%);
+  position: absolute;
+  width: 100%;
+  transform: translate(0%, -50%);
 }
 
-.banner{
-	position: relative;
-	display: none;
-	background-color: rgba(255,0,0,1);
-	height: 13px;
-	right: 0px;
-	top: 0px;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 12px;
-	padding:5px;
-	padding-top: 0px;
-	color: white;
-	vertical-align: middle;
-	text-align: center;
+.banner {
+  position: relative;
+  display: none;
+  background-color: rgba(255, 0, 0, 1);
+  height: 13px;
+  right: 0px;
+  top: 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  padding: 5px;
+  padding-top: 0px;
+  color: white;
+  vertical-align: middle;
+  text-align: center;
 }
 
-
-
-.right{
-	float:right;
-	/*background-color:rgba(15,31,218,1.00);*/
+.right {
+  float: right;
+  /*background-color:rgba(15,31,218,1.00);*/
 }
 
-.center{
-	position:relative;
-	transform: translateX(55%);
-	/*background-color:rgba(15,31,218,1.00);*/
+.center {
+  position: relative;
+  transform: translateX(55%);
+  /*background-color:rgba(15,31,218,1.00);*/
 }
 
-#footer{
-	width:100%;
-	height:40px;
-	font-size:10px;
-	text-align:center;
-	background-color:#23313F;
-	color:#D2D2D2;
-	background-repeat:repeat;
-	background-image:url('https://www.gtsailing.org/links/chevron-dark-blue.png');
-	line-height:40px;
-	vertical-align:central;
-	/*position:absolute;
+#footer {
+  width: 100%;
+  height: 40px;
+  font-size: 10px;
+  text-align: center;
+  background-color: #23313F;
+  color: #D2D2D2;
+  background-repeat: repeat;
+  background-image: url('https://www.gtsailing.org/links/chevron-dark-blue.png');
+  line-height: 40px;
+  vertical-align: central;
+  /*position:absolute;
 	bottom:-55px;*/
 }
 
-#header{
-	width:100%;
-	height:40px;
-	text-align:center;
-	background-color:#23313F;
-	color:#D2D2D2;
-	background-repeat:repeat;
-	background-image:url('https://www.gtsailing.org/links/chevron-dark-blue.png');
-	line-height:40px;
-	vertical-align:central;
+#header {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  background-color: #23313F;
+  color: #D2D2D2;
+  background-repeat: repeat;
+  background-image: url('https://www.gtsailing.org/links/chevron-dark-blue.png');
+  line-height: 40px;
+  vertical-align: central;
 }
 
-.noHighlight{
-	user-select: none;
-	-moz-user-select: none;
-	-khtml-user-select: none;
-	-webkit-user-select: none;
-	-o-user-select: none;
-	cursor:pointer;
+.noHighlight {
+  user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  cursor: pointer;
 }
 
 .noselect {
-  -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
                                   supported by Chrome and Opera */
 }
 
-
-@media only screen and (max-width:360px){
-	.LinkHolder{
-		display:block;
-		width:100%;
-	}
-	.right{
-		float:left;
-	}
+@media only screen and (max-width:360px) {
+  .LinkHolder {
+    display: block;
+    width: 100%;
+  }
+  .right {
+    float: left;
+  }
 }

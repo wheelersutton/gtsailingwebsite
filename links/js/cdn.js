@@ -1,7 +1,6 @@
 $(document).ready(function() {
 
   $.getJSON("json/siteData.json?nocache=" + (new Date()).getTime(), function(file) {
-    console.log(file);
     var data = file.elements;
     for (var i = 0; i < data.length; i++) {
       var float = "";
@@ -17,7 +16,7 @@ $(document).ready(function() {
         );
       } else {
         $('#links').append(
-          "<a target=\"_blank\" href=\"" + data[i].link + "\"><div id=\"rightBlock\" class=\"LinkHolder noHighlight" + float + "\">" + data[i].title + "<div class=\"linkIcon ease\"><img src=\"https://www.gtsailing.org/links/" + data[i].ico + "\" height=\"22px\" alt=\"" + data[i].title + "\" /></div</div></a>"
+          "<a target=\"_blank\" href=\"" + data[i].link + "\"><div class=\"LinkHolder noHighlight" + float + "\">" + data[i].title + "<div class=\"linkIcon ease\"><img src=\"https://www.gtsailing.org/links/" + data[i].ico + "\" height=\"22px\" alt=\"" + data[i].title + "\" /></div</div></a>"
         );
       }
     }
