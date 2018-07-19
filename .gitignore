@@ -3,5 +3,6 @@
 *.php
 backend
 ipn
+tumbler.html
 regatta/backups
 regatta/images/backgrounds

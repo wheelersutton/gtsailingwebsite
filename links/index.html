@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -19,40 +19,42 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300" rel="stylesheet" type="text/css">
   <link rel="icon" sizes="192x192" href="ico/icon.png">
   <!-- iPhone SPLASHSCREEN-->
-  <link rel="apple-touch-startup-image" sizes="340x480" href="screens/320x460.png">
-  <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="icons/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
-  <link rel="icon" type="image/x-icon" href="https://www.gtsailing.org/images/favicon.png">
+  <link rel="apple-touch-startup-image" sizes="340x480" href="./icons/screens/320x460.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="./icons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./icons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./icons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./icons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./icons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./icons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./icons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./icons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./icons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./icons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./icons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16x16.png">
 
   <script>
     (function(i, s, o, g, r, a, m) {
       i['GoogleAnalyticsObject'] = r;
       i[r] = i[r] || function() {
-          (i[r].q = i[r].q || []).push(arguments)
+        (i[r].q = i[r].q || []).push(arguments)
       }, i[r].l = 1 * new Date();
       a = s.createElement(o),
-          m = s.getElementsByTagName(o)[0];
+        m = s.getElementsByTagName(o)[0];
       a.async = 1;
       a.src = g;
       m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');ga('create', 'UA-78979602-1', 'auto');ga('send', 'pageview');
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-78979602-1', 'auto');
+    ga('send', 'pageview');
   </script>
 
   <script src="https://www.gtsailing.org/links/js/jquery-3.3.1.min.js"></script>
   <script src="https://www.gtsailing.org/links/js/sizer.js"></script>
   <script src="https://www.gtsailing.org/links/js/loader.js"></script>
 </head>
+
 <body onresize="resize()">
   <div id="html_version" style="display:none">2.0</div>
   <div id="js_notice">
@@ -62,12 +64,15 @@
     <div class="banner noselect" id="notice"></div>
     <div id="header" class="noselect">GT Sailing Links</div>
     <div id="links"></div>
-    <div id="cal"><div class="iframe-rwd">
-      <iframe id="cal" onresize="iframeResize()" src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=200&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=iv8hrg6d9s97j1pj5ot97d2pu0%40group.calendar.google.com&amp;color=%23AB8B00&amp;ctz=America%2FNew_York"
+    <div id="cal">
+      <div class="iframe-rwd">
+        <iframe title="GT Sailing Calendar" onresize="iframeResize()" src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=200&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=iv8hrg6d9s97j1pj5ot97d2pu0%40group.calendar.google.com&amp;color=%23AB8B00&amp;ctz=America%2FNew_York"
           style="border-width:0; border-radius:10px; margin:0 auto; margin-top:15px; -webkit-overflow-scrolling: touch;" height="250px" frameborder="0" scrolling="no" width="100%"></iframe>
-    </div></div>
+      </div>
+    </div>
     <div id="footer">
-      GT Sailing <span id="date"></span> • <img src="https://www.gtsailing.org/links/burgee.png" width="20" height="20" alt="" style="position:relative; top:5px;" /> <a href="mailto:gtsailingexec@googlegroups.com">gtsailingexec@googlegroups.com</a><span id="version"></span>
+      GT Sailing <span id="date"></span> • <img src="https://www.gtsailing.org/links/burgee-small.png" width="20" height="20" alt="" style="position:relative; top:5px;" /> <a href="mailto:gtsailingexec@googlegroups.com">gtsailingexec@googlegroups.com</a>
+      <span id="version"></span>
     </div>
   </div>
 </body>
@@ -75,11 +80,13 @@
   if ('serviceWorker' in navigator) {
     //console.log("Will the service worker register?");
     navigator.serviceWorker.register('service-worker.js')
-      .then(function(reg){
+      .then(function(reg) {
         console.log("service-worker success");
+        console.log('ServiceWorker registration successful with scope: ', reg.scope);
       }).catch(function(err) {
         console.log("service-worker success", err)
       });
   }
 </script>
+
 </html>
