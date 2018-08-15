@@ -1,13 +1,13 @@
 {
-  "version":"2.1.5",
+  "version":"2.3.1",
   "html_version":"2.0",
   "invalid_version_error":"Wrong app version! Delete, clear cache, redownload.",
   "banner":{
-    "display":"yes",
-    "text":"Check out the leaderboard at the bottom!",
+    "display":"no",
+    "text":"Keenan is the bes!",
     "bgcolor":"green",
     "textcolor":"white",
-    "link":"",
+    "link":"https://www.amiawesome.com",
     "timeout":-1
   },
   "elements":[
@@ -68,7 +68,7 @@
       "ico":"ico/cicon.png"
     },
     {
-      "link":"/links/documents/On-The-Water-Rubric.pdf",
+      "link":"https://drive.google.com/open?id=1mQ-_qcBb-wlf2_lMPSUBm0N9zpqqqP47",
       "title":"On The Water Rubric",
       "float":"right",
       "ico":"ico/cicon.png"
@@ -106,10 +106,10 @@
       "title":"Social Links"
     },
     {
-      "link":"https://www.facebook.com/groups/2200495519/",
-      "title":"FB Group",
+      "link":"https://join.slack.com/t/gtsailingclub/shared_invite/enQtMzY3NzE5MzIyMjkwLWM3NzM3ZTUzMTNiYzZiYjIyNTVkNjEzMTQwYTNjYjU0ODFjYmEzNDhmZDlkNGE3NmE3ZmUxZmRhZmUyY2MwZWE",
+      "title":"Slack",
       "float":"left",
-      "ico":"ico/fblogo.png"
+      "ico":"ico/slack.png"
     },
     {
       "link":"https://www.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23FFFFFF&src=iv8hrg6d9s97j1pj5ot97d2pu0@group.calendar.google.com&color=%23AB8B00ctz=America/New_York",
@@ -132,6 +132,26 @@
       "title":"Dues",
       "float":"left",
       "ico":"ico/cicon.png"
+    },
+    {
+      "type":"weather",
+      "link":"https://www.gtsailing.org/links/json/fetchweather.php",
+      "station":"KGAFLOWE8",
+      "title":"LLSC Weather",
+      "hidden":"no"
+    },
+    {
+      "type":"weather",
+      "link":"https://www.gtsailing.org/links/json/fetchweather.php",
+      "station":"KGABUFOR23",
+      "title":"Holiday Marina Weather",
+      "hidden":"yes"
+    },
+    {
+      "type":"leaderboard",
+      "link":"https://script.google.com/macros/s/AKfycbybDJAuKgJI8PC8MHBIPUryvWMVS9_2XkYSUOvw7LOMNjKQVMKS/exec?req=fetch",
+      "title":"Leaderboard",
+      "hidden":"no"
     }
   ]
 }
