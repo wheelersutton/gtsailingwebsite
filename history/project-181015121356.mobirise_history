@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Sailing Club at Georgia Tech",
-    "currentPage": "raceteamevents.html",
+    "currentPage": "index.html",
     "versionFirst": "4.0.14",
     "uniqCompNum": 194,
     "versionPublish": "4.8.1",
@@ -42,7 +42,9 @@
     "noImageResize": "",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
-    "siteFonts": []
+    "siteFonts": [],
+    "publishType": "local",
+    "publishPath": "file:///C:/Users/Administrator/Documents/sailing/gtsailingwebsite"
   },
   "pages": {
     "alumni.html": {
