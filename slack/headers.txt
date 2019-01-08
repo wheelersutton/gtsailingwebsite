@@ -1,0 +1,16 @@
+array (
+  'User-Agent' => 'Slackbot 1.0 (+https://api.slack.com/robots)',
+  'X-Forwarded-For' => '35.153.231.18',
+  'Accept' => 'application/json,*/*',
+  'X-Forwarded-Proto' => 'https',
+  'Host' => 'www.gtsailing.org',
+  'CF-Visitor' => '{"scheme":"https"}',
+  'CF-Connecting-IP' => '35.153.231.18',
+  'X-Mosso-DT' => 'PHP56-4 VS',
+  'CF-RAY' => '46a5160119bb56f3-IAD',
+  'Connection' => 'Keep-Alive',
+  'CF-IPCountry' => 'US',
+  'X-Slack-Signature' => 'v0=7b73d2b5ae726817748130654f325a1dda42a03282992d6e338304d07c0e8a78',
+  'Accept-Encoding' => 'gzip',
+  'X-Slack-Request-Timestamp' => '1539635870',
+)

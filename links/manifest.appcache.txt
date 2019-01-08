@@ -1,2 +1,0 @@
-# html 5 application cache - offline access
-text/cache-manifest    appcache
