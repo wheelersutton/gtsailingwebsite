@@ -1,14 +1,22 @@
 {
-  "version":"2.3.1",
+  "version":"2.3.5",
   "html_version":"2.0",
   "invalid_version_error":"Wrong app version! Delete, clear cache, redownload.",
   "banner":{
     "display":"no",
-    "text":"Keenan is the bes!",
+    "text":"Sign up for the Work Party!",
     "bgcolor":"green",
     "textcolor":"white",
-    "link":"https://www.amiawesome.com",
+    "link":"",
     "timeout":-1
+  },
+  "redirects":{
+    "checkout": "https://goo.gl/EZZvNv",
+    "home": "https://www.gtsailing.org/",
+    "otw": "https://www.gtsailing.org/otwrubric",
+    "otw-inst": "https://www.gtsailing.org/otwrubric/login.php",
+    "otw-help": "https://www.gtsailing.org/otwrubric/help/OTW-Rubric-Help.pdf",
+    "written-rec": "https://docs.google.com/forms/d/e/1FAIpQLSegyCI2pJ4lScbKtZbBYNFJwi4quxIcyIuUxSTHRpI6qQ2fiw/viewform?usp=sf_link"
   },
   "elements":[
     {
@@ -68,8 +76,8 @@
       "ico":"ico/cicon.png"
     },
     {
-      "link":"https://drive.google.com/open?id=1mQ-_qcBb-wlf2_lMPSUBm0N9zpqqqP47",
-      "title":"On The Water Rubric",
+      "link":"https://www.gtsailing.org/otwrubric",
+      "title":"On The Water Rubrics",
       "float":"right",
       "ico":"ico/cicon.png"
     },
@@ -90,7 +98,7 @@
       "ico":"ico/user.png"
     },
     {
-      "link":"https://drive.google.com/file/d/1s55h1aBAHaKWFBBk2wPbkyvK30WoAlal/view?usp=sharing",
+      "link":"https://drive.google.com/open?id=1rMVnwxEJrtUh6287o4a8iCtBTjnoiE8c",
       "title":"Const. and ByLaws",
       "float":"left",
       "ico":"ico/cicon.png"
@@ -100,6 +108,12 @@
       "title":"Help Documents",
       "float":"right",
       "ico":"ico/cicon.png"
+    },
+    {
+      "link":"https://docs.google.com/forms/d/e/1FAIpQLSduBlBYKslN5D87WinYuNGnIkZgeYMsPT1uSLd2XVRQSCdquQ/viewform",
+      "title":"Suggestions",
+      "float":"left",
+      "ico":"ico/ggicon.png"
     },
     {
       "type":"sep",
@@ -118,18 +132,12 @@
       "ico":"ico/calendar.png"
     },
     {
-      "link":"https://orgsync.com/135878/chapter",
-      "title":"Orgsync",
-      "float":"left",
-      "ico":"ico/ggicon.png"
-    },
-    {
       "type":"sep",
-      "title":"Other"
+      "title":"Temporary Links"
     },
     {
-      "link":"https://goo.gl/s4UZ23",
-      "title":"Dues",
+      "link":"https://docs.google.com/forms/d/e/1FAIpQLSetNCLJXwpuJ-41LdrAGWw0nN3D1hheZQ9vlLmQyGB5f8Xdog/viewform?usp=sf_link",
+      "title":"Dues / Membership",
       "float":"left",
       "ico":"ico/cicon.png"
     },
@@ -138,14 +146,14 @@
       "link":"https://www.gtsailing.org/links/json/fetchweather.php",
       "station":"KGAFLOWE8",
       "title":"LLSC Weather",
-      "hidden":"no"
+      "hidden":"yes"
     },
     {
       "type":"weather",
       "link":"https://www.gtsailing.org/links/json/fetchweather.php",
       "station":"KGABUFOR23",
       "title":"Holiday Marina Weather",
-      "hidden":"yes"
+      "hidden":"no"
     },
     {
       "type":"leaderboard",

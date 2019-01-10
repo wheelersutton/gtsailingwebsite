@@ -1,46 +1,48 @@
 {
- "short_name": "GT Sailing",
- "name": "GT Sailing Links",
- "theme_color": "#23313F",
- "background_color": "#23313F",
- "icons": [
-  {
-   "src": "icons\/apple-icon-57x57.png",
-   "sizes": "57x57",
-   "type": "image\/png",
-   "density": "1.0"
-  },
-  {
-   "src": "icons\/apple-icon-60x60.png",
-   "sizes": "60x60",
-   "type": "image\/png",
-   "density": "1.0"
-  },
-  {
-   "src": "icons\/apple-icon-72x72.png",
-   "sizes": "72x72",
-   "type": "image\/png",
-   "density": "1.0"
-  },
-  {
-   "src": "icons\/apple-icon-144x144.png",
-   "sizes": "144x144",
-   "type": "image\/png",
-   "density": "1.0"
-  },
-  {
-   "src": "icons\/apple-icon-180x180.png",
-   "sizes": "180x180",
-   "type": "image\/png",
-   "density": "1.0"
-  },
-  {
-   "src": "icons\/apple-icon-192x192.png",
-   "sizes": "192x192",
-   "type": "image\/png",
-   "density": "1.0"
-  }
- ],
-  "start_url": "index.html?launcher=true",
-  "display": "standalone"
+  "short_name": "GT Sailing",
+  "name": "GT Sailing Links",
+  "theme_color": "#23313F",
+  "background_color": "#23313F",
+  "icons": [
+   {
+    "src": "icons\/apple-icon-57x57.png",
+    "sizes": "57x57",
+    "type": "image\/png",
+    "density": "1.0"
+   },
+   {
+    "src": "icons\/apple-icon-60x60.png",
+    "sizes": "60x60",
+    "type": "image\/png",
+    "density": "1.0"
+   },
+   {
+    "src": "icons\/apple-icon-72x72.png",
+    "sizes": "72x72",
+    "type": "image\/png",
+    "density": "1.0"
+   },
+   {
+    "src": "icons\/apple-icon-144x144.png",
+    "sizes": "144x144",
+    "type": "image\/png",
+    "density": "1.0"
+   },
+   {
+    "src": "icons\/apple-icon-180x180.png",
+    "sizes": "180x180",
+    "type": "image\/png",
+    "density": "1.0"
+   },
+   {
+    "src": "icons\/apple-icon-192x192.png",
+    "sizes": "192x192",
+    "type": "image\/png",
+    "density": "1.0"
+   }
+  ],
+  "display": "standalone",
+  "orientation": "portrait",
+  "Scope": "/links",
+  "start_url": "/links/"
 }

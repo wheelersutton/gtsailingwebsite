@@ -1,6 +1,15 @@
 $(document).ready(function() {
-
   $.getJSON("json/siteData.json?nocache=" + (new Date()).getTime(), function(file) {
+    let target = getUrlParameter('target');
+    if (target !== undefined) {
+      let redirect = file.redirects[target];
+      if (redirect !== undefined && redirect !== "") {
+        window.location.replace(redirect);
+        $('body').html('');
+        return;
+      }
+    }
+    $('body').css('display', 'block');
     var data = file.elements;
     for (var i = 0; i < data.length; i++) {
       var float = "";
@@ -24,8 +33,17 @@ $(document).ready(function() {
           $('#links').append(lb);
           getLeaderboard(lb, data[i]);
         } else {
+          // $('#links').append(
+          //   "<a target=\"_blank\" class=\"linkHolderLink\" href=\"" + data[i].link + "\"><div class=\"LinkHolder noHighlight" + float + "\">" + data[i].title + "<div class=\"linkIcon ease\"><img src=\"https://gtsailing.org/links/" + data[i].ico + "\" height=\"22px\" alt=\"" + data[i].title + "\" /></div</div></a>"
+          // );
+          //${data[i].title}
           $('#links').append(
-            "<a target=\"_blank\" href=\"" + data[i].link + "\"><div class=\"LinkHolder noHighlight" + float + "\">" + data[i].title + "<div class=\"linkIcon ease\"><img src=\"https://gtsailing.org/links/" + data[i].ico + "\" height=\"22px\" alt=\"" + data[i].title + "\" /></div</div></a>"
+            `<div class="LinkHolder noHighlight${float}" href="${data[i].link}">
+              ${data[i].title}
+              <div class="linkIcon ease">
+                <img src="https://gtsailing.org/links/${data[i].ico}" height="22px" alt="${data[i].title}"/>
+              </div>
+            </div>`
           );
         }
       }
@@ -59,7 +77,34 @@ $(document).ready(function() {
         return false
       }
     }*/
+
+    function isiPhone() {
+      return (
+        (navigator.platform.indexOf("iPhone") != -1) ||
+        (navigator.platform.indexOf("iPod") != -1)
+      );
+    }
+
+
+    $('.LinkHolder').click(function(e) {
+      // window.location.replace($(this).attr('href'));
+      if (isiPhone()) {
+        var a = document.createElement('a');
+        a.setAttribute("href", $(this).attr('href'));
+        a.setAttribute("target", "_blank");
+
+        var dispatch = document.createEvent("HTMLEvents");
+        dispatch.initEvent("click", true, true);
+        a.dispatchEvent(dispatch);
+      } else {
+        window.open($(this).attr('href'), '_blank');
+      }
+    })
+
+
+
   }).fail(function(e) {
+    $('body').css('display', 'block');
     bannerError('Client error: \"' + e.status + ' ' + e.statusText + '\". Please Reload.');
     console.log(e);
   });
@@ -78,7 +123,13 @@ $(document).ready(function() {
       obs.request_time = result.current_observation.local_epoch;
       obs.retrieve_time = Math.round((new Date()).getTime() / 1000);
       obs.feels_like = result.current_observation.feelslike_f;
+      if (obs.feels_like == -999) {
+        obs.feels_like = '--';
+      }
       obs.temp = result.current_observation.temp_f;
+      if (obs.temp == -999) {
+        obs.temp = '--';
+      }
       obs.weather = result.current_observation.weather;
       obs.wind_dir = result.current_observation.wind_degrees;
       obs.wind_card = result.current_observation.wind_dir;
@@ -99,10 +150,18 @@ $(document).ready(function() {
       /*setInterval(function() {
         rose_img.css('transform', 'rotate(' + (obs.wind_dir + Math.random() * 4 - 1.5) + 'deg)');
       }, 250)*/
-      rose_img.css('transform', 'rotate(' + obs.wind_dir + 'deg)');
-      wind.append(rose);
-      wind.append('<div class="wind_speed_text">' + (Math.round(obs.wind_speed * 10) / 10) + '<span>kts</span></div>');
-      wind.append('<div class="weather_wind_text"><div class="wind_dir">Wind from <span>' + obs.wind_card + '</span></div><div class="wind_gusts">Gusts <span>' + (Math.round(obs.wind_gust * 10) / 10) + '</span> kts</div></div>');
+
+      if (result.current_observation.wind_mph != -999) {
+        rose_img.css('transform', 'rotate(' + obs.wind_dir + 'deg)');
+        wind.append(rose);
+        wind.append('<div class="wind_speed_text">' + (Math.round(obs.wind_speed * 10) / 10) + '<span>kts</span></div>');
+        wind.append('<div class="weather_wind_text"><div class="wind_dir">Wind from <span>' + obs.wind_card + '</span></div><div class="wind_gusts">Gusts <span>' + (Math.round(obs.wind_gust * 10) / 10) + '</span> kts</div></div>');
+      } else {
+        rose_img.css('transform', 'rotate(0deg)');
+        wind.append(rose);
+        wind.append('<div class="wind_speed_text">--<span>kts</span></div>');
+        wind.append('<div class="weather_wind_text"><div class="wind_dir">Wind from <span>--</span></div><div class="wind_gusts">Gusts <span>--</span> kts</div></div>');
+      }
 
 
 
@@ -169,7 +228,7 @@ $(document).ready(function() {
 
 
 
-      console.log("Ha. Nerd. -GT Exec");
+      console.log("Ha. Nerd. -Some old GT Exec");
       console.log('');
       console.log('Dehash (md5): 667e96841efd7a653610e2f3eba36b48');
       console.log('Solution has 14 lowercase letters only. Two words,\nno spaces. The solution\'s CRC32 is 0x12BC1CB9.');
@@ -219,3 +278,18 @@ function makeid() {
 
   return text;
 }
+
+function getUrlParameter(sParam) {
+  var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+    sURLVariables = sPageURL.split('&'),
+    sParameterName,
+    i;
+
+  for (i = 0; i < sURLVariables.length; i++) {
+    sParameterName = sURLVariables[i].split('=');
+
+    if (sParameterName[0] === sParam) {
+      return sParameterName[1] === undefined ? true : sParameterName[1];
+    }
+  }
+};
